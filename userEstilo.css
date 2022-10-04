@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    background-color: rgb(42, 44, 46);
+    color: rgb(90, 161, 161); 
+  
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 44, 46);
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table td, table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  table tr:hover{
+    background-color: #ddd;
+  }
+  
+  #btnOff{
+    width: 29px;
+    height: 29px;
+  }
+ 

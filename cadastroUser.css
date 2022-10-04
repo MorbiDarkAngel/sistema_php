@@ -1,0 +1,85 @@
+
+html{
+    font-family: "ARIAL", Arial;
+    
+}
+    body{
+        margin: 0px;
+        background-color: rgb(42, 44, 46);
+        color: rgb(90, 161, 161); 
+        
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(109, 129, 129, 0.089);;
+      }
+      li {
+        display: inline;
+        float: left;
+      }
+     li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+    
+
+    .title{
+        width: 50vh;
+        height: 10vh;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+div{
+    background-color: rgba(109, 129, 129, 0.089);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 70vh;
+    height: 70vh;
+    border-radius: 0px 0px 20px 20px;
+    
+    
+
+}
+
+input[type="text"], input[type="password"] {
+    max-width: 40vh;
+    min-width: 40vh;
+    padding: 12px 20px ;
+    margin: 50px 25px 25px 50px;
+    box-sizing: border-box;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgba(109, 129, 129, 0.089);
+    border: none;
+    color:  rgb(90, 161, 161);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 7px 5px;
+    cursor: pointer;
+    margin: 8px 25px 25px 50px;
+  }
+input[type=radio]{
+    padding-right: 50px;
+} 
+
+#login{
+    background-color: rgb(60, 66, 66);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color:rgb(42, 44, 46);
+    color: rgb(90, 161, 161); 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(109, 129, 129, 0.089);
+    
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+ li a {
+    display: block;
+    color: rgb(90, 161, 161); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  div {
+    background-color:rgba(109, 129, 129, 0.089);
+      width: 30vh;
+      height: 50vh;
+      padding: 20px 20px 20px 20px;;
+      margin: 20px 20px 20px 20px;  
+      border-radius: 20px 20px 20px 20px; 
+      display: inline-block;
+
+   
+}
+div img{
+    padding-left: 35px;
+    padding-right: 25px;
+}
